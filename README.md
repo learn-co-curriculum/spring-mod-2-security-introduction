@@ -7,12 +7,11 @@
 
 ## Why Security?
 
-So far, the APIs we have stood up so far are open to the entire world to
-access. That is, once we deploy the application on a system that is exposed to
-the internet, anyone with access to the internet would be able to access our
-service. This is desirable in some cases (many APIs are public by nature), but
-there are also a lot of scenarios in which we might want to control access our
-APIs.
+So far, the APIs we have stood up are open to the entire world to access. That
+is, once we deploy the application on a system that is exposed to the internet,
+anyone with access to the internet would be able to access our service. This is
+desirable in some cases (many APIs are public by nature), but there are also a
+lot of scenarios in which we might want to control access our APIs.
 
 When we want to control access to our APIs, there are 2 fundamental ways in
 which this is achieved:
@@ -20,7 +19,7 @@ which this is achieved:
 1. **Authentication**: This is the process of validating that a user is who
    they claim to be.
 2. **Authorization**: this is the process of validating that a user is
-   authorized to perform the specific action they are trying to perform.
+   allowed to perform the specific action they are trying to perform.
 
 We can implement authentication without authorization. That basically means all
 users in the system have the same rights, and all we care about is that we are
@@ -84,10 +83,10 @@ Consider the following project structure and ensure yours looks the same:
     │   │       └── example
     │   │           └── springsecuritydemo
     │   │               ├── SpringSecurityDemoApplication.java
-    │   │               ├── controller
-    │   │               │   └── DemoController.java
-    │   │               └── config
-    │   │                   └── SecurityConfiguration.java
+    │   │               ├── config
+    │   │               │   └── SecurityConfiguration.java
+    │   │               └── controller
+    │   │                   └── DemoController.java
     │   └── resources
     │       ├── application.properties
     │       ├── static
@@ -133,7 +132,7 @@ Security has auto-generated a user password for us. By default, all the
 endpoints are now protected under Spring Security.
 
 As noted in the console message, the auto-generated password that has been given
-to us, it for development and testing purposes only. Later on, we'll learn how to
+to us, is for development and testing purposes only. Later on, we'll learn how to
 configure this for an application running in production.
 
 Since we only have one endpoint, let's open up Postman and try to send the GET

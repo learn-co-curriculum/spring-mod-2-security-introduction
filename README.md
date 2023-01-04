@@ -33,7 +33,7 @@ trying to perform.
 Let's look at how to implement both Authentication (AuthN) and Authorization
 (AuthZ).
 
-## Create a Spring Security Project
+## Code Along: Create a Spring Security Project
 
 Let's create a new Spring project to demonstrate the Spring security features.
 

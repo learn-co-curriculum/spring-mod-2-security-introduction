@@ -53,9 +53,6 @@ Let's create a new Spring project to demonstrate the Spring security features.
     3. Select "Spring Web" from the list.
     4. Click on "ADD DEPENDENCIES" again and add  "Lombok" from the list.
     5. Click on "ADD DEPENDENCIES" again and add "Spring Security" from the list.
-    6. Click on "ADD DEPENDENCIES" again and add "Oauth2 Client" from the list.
-    7. Click on "ADD DEPENDENCIES" again and add "Oauth2 Resource Server" from
-       the list.
 4. Click on the "Generate" button on the bottom. This will download a zip file
    containing the Spring Boot Project.
 5. Unzip the archive and open it in IntelliJ or a preferred code editor.

@@ -57,7 +57,7 @@ Let's create a new Spring project to demonstrate the Spring security features.
    containing the Spring Boot Project.
 5. Unzip the archive and open it in IntelliJ or a preferred code editor.
 
-![spring-security-project-initializr](https://curriculum-content.s3.amazonaws.com/spring-mod-2/security/spring-initialzr-security-project.png)
+![spring-security-project-initializr](https://curriculum-content.s3.amazonaws.com/spring-mod-2/security2/spring-initialzr-security-project.png)
 
 Once you have created the new project, let's create a few packages and classes.
 
